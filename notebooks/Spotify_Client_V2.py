@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
+# In[1]:
 
 
 #!pip install requests
 #!pip install print-dict
 
 
-# In[8]:
+# In[2]:
 
 
 import base64
@@ -16,9 +16,9 @@ import datetime
 from urllib.parse import urlencode
 import requests as rq
 import webbrowser
-from print_dict import pd
 import os
-from dotenv import load_dotenv
+#from print_dict import pd
+#from dotenv import load_dotenv
 
 
 # In[9]:
