@@ -7,17 +7,16 @@
 #!pip install requests
 
 
-# In[8]:
+# In[1]:
 
 
 import base64
 import datetime
 from urllib.parse import urlencode
-
 import requests as rq
 
 
-# In[36]:
+# In[2]:
 
 
 class SpotifyAPI(object):
