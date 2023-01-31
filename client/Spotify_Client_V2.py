@@ -8,7 +8,7 @@
 #!pip install print-dict
 
 
-# In[2]:
+# In[1]:
 
 
 import base64
@@ -21,7 +21,7 @@ import os
 #from dotenv import load_dotenv
 
 
-# In[9]:
+# In[2]:
 
 
 class SpotifyAPI(object):
@@ -40,6 +40,7 @@ class SpotifyAPI(object):
         super().__init__(*args, **kwargs)
         self.client_id = client_id
         self.client_secret = client_secret
+        print("Imported Client Version 2")
         self.perform_login()
     
     def get_client_credentials(self):
@@ -296,6 +297,7 @@ class SpotifyAPI(object):
                     'public' : public}
         r = rq.post(endpoint, headers=headers, json=post_data)
         if r.status_code not in range(200,299):
+            print(False)
             return {}
         return r.json()
     
