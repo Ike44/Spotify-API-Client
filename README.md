@@ -4,5 +4,6 @@ This is a Spotify API client I created that has the ability to automatically ref
 In my spotify account, I have a huge playlist of over 2,000 songs because I could not be bothered to create smaller playlists for different purposes and that is generally how I like to listen to music, but there came multiple times when I wanted to listen to songs from a particular artist; I could do this by simply playing songs on the artists' profile but I only wanted to listen to songs from that artist that I liked (which would be the ones in my playlist), and there the idea was born. I could have used other spotify API client's like spotipy but I wanted to build one for myself so I would use it for my particular functionality and build to my liking as well as make it modular enough to where I can build additional features on top of it whenever I wanted to do so.
 
 I am currently working on the cli for the playlist functionality for the purpose of user interaction.
+Instructions for use are on the way!
 
 There are a lot of features that will be built onto this project but this is the initial main feature. I am certainly open to new ideas and ways for implementation so feel free to hit me up with any suggestions.
