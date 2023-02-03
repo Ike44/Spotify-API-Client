@@ -137,7 +137,7 @@ class SpotifyAPI(object):
                 if isinstance(operator_query, str):
                     query = f"{query} {operator} {operator_query}"
         query_params = urlencode({"q": query, "type" : search_type.lower()})
-        print(query_params)
+        #print(query_params)
         # When doing the queries with operators match the query to the operator query in terms of type(artists, albums,etc.)
         return self.base_search(query_params)
         
