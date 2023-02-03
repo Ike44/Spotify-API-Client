@@ -36,8 +36,9 @@ try:
 except:
     print("the URL is incorrect. Try again")
 
-print("Please enter your user id: (This can be found in your spotify accounts info.)")
-user_id = input("")
+#print("Please enter your user id: (This can be found in your spotify accounts info.)")
+user_info = spotify_client.get_user_info()
+user_id = user_info['id']
 
 response = spotify_client.get_user_playlists(user_id=user_id)
 spotify_client.clear_user_playlists()
@@ -135,7 +136,7 @@ print("PROCESS FINISHED.")
 print("Check you Spotify library for results.")
 time.sleep(1)
 print("")
-print("Thank you for using my software! all feedback is much appreciated!")
+print("Thank you for using my software! All feedback is much appreciated!")
 time.sleep(1)
 print("I wish you the best!")
 time.sleep(1)

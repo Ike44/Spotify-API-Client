@@ -67,7 +67,7 @@ class SpotifyAPI(object):
             'client_id' : self.client_id,
             'response_type' : 'code',
             'redirect_uri' : 'http://localhost:3000/',
-            'scope' : 'playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private'
+            'scope' : 'playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private user-read-private user-read-email'
             }
         return auth_data
     
@@ -201,7 +201,16 @@ class SpotifyAPI(object):
         #print(query_params)
         # When doing the queries with operators match the query to the operator query in terms of type(artists, albums,etc.)
         return self.base_search(query_params)
-        
+
+#Get user info
+
+    def get_user_info(self, version='v1'):
+        endpoint = f"https://api.spotify.com/{version}/me"
+        headers = self.get_resource_header()
+        r = rq.get(endpoint, headers=headers)
+        if r.status_code not in range(200,299):
+            return {}
+        return r.json()    
 
 #Playlist features
 
