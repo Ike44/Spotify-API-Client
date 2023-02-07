@@ -8,4 +8,8 @@ Instructions for use are on the way!
 
 *There are a lot of features that will be built onto this project but this is the initial main feature. I am certainly open to new ideas and ways for implementation so feel free to hit me up with any suggestions.*
 
-##SETUP
+## SETUP
+* You will need to install the latest version of python https://realpython.com/installing-python/ 
+* You will also need to install pip: https://pip.pypa.io/en/stable/installation/
+
+* Use pip to install pipenv : <>
