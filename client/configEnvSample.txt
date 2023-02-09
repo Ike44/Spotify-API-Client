@@ -1,0 +1,2 @@
+CLIENT_ID=yourClientIDShouldBeWrittenHere
+CLIENT_SECRET=yourClientSecretShouldBeWrittenHere
