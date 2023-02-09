@@ -9,7 +9,15 @@ Instructions for use are on the way!
 *There are a lot of features that will be built onto this project but this is the initial main feature. I am certainly open to new ideas and ways for implementation so feel free to hit me up with any suggestions.*
 
 ## SETUP
+* First thing you need to do is to create a `congig.env` that contains the environment variables (Spotify client id and client secret from your spotify app on developer.spotify.com). Follow the same format in the `configEnvSample.txt` file to create your env file.
 * You will need to install the latest version of python https://realpython.com/installing-python/ 
 * You will also need to install pip: https://pip.pypa.io/en/stable/installation/
+* `cd` into the project directory.
+* Use pip to install pipenv : `pip install pipenv`
+* Run the command: `pipenv shell`
+* You will need to install the following modules: 
+  * python-dotenv: `pipenv install python-dotenv`
+  * python requests: `piprnv install requests`
 
-* Use pip to install pipenv : <>
+## Running the program
+To run the program (playlist feature), run the `PlaylistFeatureCLI.py` file in the terminal and follow the instructions carefully.
