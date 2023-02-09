@@ -20,4 +20,4 @@ Instructions for use are on the way!
   * python requests: `piprnv install requests`
 
 ## Running the program
-To run the program (playlist feature), run the `PlaylistFeatureCLI.py` file in the terminal and follow the instructions carefully.
+To run the program (playlist feature), navigate to the /client directory and run the `PlaylistFeatureCLI.py` file (`../client/PlaylistFeatureCLI.py`) in the terminal and follow the instructions carefully.
