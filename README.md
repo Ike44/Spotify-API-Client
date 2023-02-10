@@ -17,7 +17,7 @@ Instructions for use are on the way!
 * Run the command: `pipenv shell`
 * You will need to install the following modules: 
   * python-dotenv: `pipenv install python-dotenv`
-  * python requests: `piprnv install requests`
+  * python requests: `pipenv install requests`
 
 ## Running the program
 To run the program (playlist feature), navigate to the /client directory and run the `PlaylistFeatureCLI.py` file (`../client/PlaylistFeatureCLI.py`) in the terminal and follow the instructions carefully.
